@@ -1,0 +1,1037 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+  background-image: url("C:/Users/mukan/Desktop/HTML-CSS/final_project/page4/car-list.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a,a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("C:/Users/mukan/Desktop/HTML-CSS/final_project/page4/car-list.png");
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.header .nav-bar{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.header .nav-bar .logo{
+    margin-left: 50px;
+}
+.header .nav-bar .logo a{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header .nav-bar .menu ul li{
+    margin-right: 30px;
+}
+.header .nav-bar .menu ul li a{
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.6;
+}
+.header .nav-bar .menu ul li a:hover{
+    opacity: 1;
+}
+.hero{
+    width: 100%;
+}
+.hero .row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 50px;
+    margin: auto;
+}
+.hero .row .left-sec{
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.hero .row .left-sec h2{
+    font-size: 85px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero .row .left-sec p{
+    margin: 20px 0;
+    color: #fff;
+    line-height: 28px;
+    padding-right: 150px;
+}
+
+/*....................................*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 5%}
+  .content1{
+    font-size: 5%;
+  }
+}
+
+
+/*...........................................................*/
+
+/* .hero1{
+    width: 100%;
+}
+.hero1 .row1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 150px;
+    margin: auto;
+}
+.hero1 .row1 .left-sec1{
+    width: 30%;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.hero1 .row1 .left-sec1 h2{
+    font-size: 85px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero1 .row1 .left-sec1 p{
+    margin: 20px 0;
+    color: #fff;
+    line-height: 28px;
+    padding-right: 300px;
+} */
+
+
+.hero1{
+  width: 100%;
+}
+.hero1 .row1{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero1 .row1 .left-sec1{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero1 .row1 .left-sec1 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero1 .row1 .left-sec1 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+
+/*...........................................................*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container1 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text1 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover {
+  background-color: #717171;
+}
+
+.fade1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade1 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev1, .next1,.text1 {font-size: 5px}
+  .content1{
+    font-size: 5%;
+  }
+}
+
+
+/*...........................................................*/
+.hero2{
+  width: 100%;
+}
+.hero2 .row2{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero2 .row2 .left-sec2{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero2 .row2 .left-sec2 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero2 .row2 .left-sec2 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container2 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text2 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot2:hover {
+  background-color: #717171;
+}
+
+.fade2 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade2 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev2, .next2,.text2 {font-size: 5%}
+}
+
+
+
+
+/*...........................................................*/
+.hero3{
+  width: 100%;
+}
+.hero3 .row3{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero3 .row3 .left-sec3{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero3 .row3 .left-sec3 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero3 .row3 .left-sec3 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container3 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev3, .next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next3 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev3:hover, .next3:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text3 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot3:hover {
+  background-color: #717171;
+}
+
+.fade3 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade3 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev3, .next3,.text3 {font-size: 5%}
+}
+
+
+
+/*...........................................................*/
+.hero4{
+  width: 100%;
+}
+.hero4 .row4{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero4 .row4 .left-sec4{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero4 .row4 .left-sec4 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero4 .row4 .left-sec4 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides4 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container4 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev4, .next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next4 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev4:hover, .next4:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text4 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot4 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot4:hover {
+  background-color: #717171;
+}
+
+.fade4 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev3, .next3,.text3 {font-size: 5%}
+}
+
+
+
+/*...........................................................*/
+.hero5{
+  width: 100%;
+}
+.hero5 .row5{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero5 .row5 .left-sec5{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero5 .row5 .left-sec5 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero5 .row5 .left-sec5 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides4 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container5 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev5, .next5 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next5 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev5:hover, .next5:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text5 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot5 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot5:hover {
+  background-color: #717171;
+}
+
+.fade5 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev3, .next3,.text3 {font-size: 5%}
+}
+
+
+/*...........................................................*/
+.hero6{
+  width: 100%;
+}
+.hero6 .row6{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero6 .row6 .left-sec6{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero6 .row6 .left-sec6 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero6 .row6 .left-sec6 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides6 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container6 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev6, .next6 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next6 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev6:hover, .next6:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text6 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot6 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot6:hover {
+  background-color: #717171;
+}
+
+.fade6 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev3, .next3,.text3 {font-size: 5%}
+}
+
+
+/*...........................................................*/
+.hero7{
+  width: 100%;
+}
+.hero7 .row7{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+  padding-top: 50px;
+  margin: auto;
+}
+.hero7 .row7 .left-sec7{
+  width: 30%;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.hero7 .row7 .left-sec7 h2{
+  font-size: 85px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.hero7 .row7 .left-sec7 p{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 28px;
+  padding-right: 150px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides7 {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container7 {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev7, .next7 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next7 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev7:hover, .next7:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text7 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot7 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot7:hover {
+  background-color: #717171;
+}
+
+.fade7 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev3, .next3,.text3 {font-size: 5%}
+}
+
+.navbar3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  border-bottom-left-radius: 1.5vw;
+  border-bottom-right-radius: 1.5vw;
+  border-bottom: solid black 5px;
+  animation: slide1 1s forwards;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  opacity: 0;
+}
+.navbar3 a{
+  text-decoration: none;
+  color: black;
+}
+.navbar3 a:hover{
+  color: rgba(115, 217, 217, 0.7);
+  text-transform: uppercase;
+}
+
+.main3, .news3, .garage3, .car3, .about_us3{
+  font-family: 'Hanalei Fill';
+  cursor: pointer;
+  margin-left: 50px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  
+  
+}
+
+a:link{
+  text-decoration: none;
+
+}
+
+.main3:hover{
+  color: rgba(115, 217, 217, 0.7);
+  text-transform: uppercase;
+  
+}
+
+.news3:hover, .garage3:hover{
+  color: rgba(115, 217, 217, 0.7);
+  text-transform: uppercase;
+  
+}
+
+.car3:hover, .about_us3:hover{
+  color: rgba(115, 217, 217, 0.7);
+  text-transform: uppercase;
+ 
+}
+.nav_text{
+  transition: font-size 1s transfrom 1s;
+}
+
+.nav_text:hover{
+  font-size: 30px;
+}
+
+@keyframes slide1{
+  0% {top: 0; opacity: 0;}
+  100% {top: 20px; opacity: 1;}
+}
+

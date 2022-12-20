@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("C:/Users/mukan/Desktop/HTML-CSS/final_project/page5/main_back.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.navbar3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    border-bottom: solid black 5px;
+    animation: slide1 1s forwards;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    opacity: 0;
+}
+.navbar3 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar3 a:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+}
+
+.main3, .news3, .garage3, .car3, .about_us3{
+    font-family: 'Hanalei Fill';
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+.main3:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+    
+}
+
+.news3:hover, .garage3:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+    
+}
+
+.car3:hover, .about_us3:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+   
+}
+.nav_text{
+    transition: font-size 1s transfrom 1s;
+}
+
+.nav_text:hover{
+    font-size: 30px;
+}
+
+@keyframes slide1{
+    0% {top: 0; opacity: 0;}
+    100% {top: 20px; opacity: 1;}
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-txt{
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;  
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main_content{
+    display: flex;
+    overflow-y: scroll;
+    background-color: white;
+    height: 600px;
+    border-radius: 15px;
+    flex-direction: column;
+    left: 300px;
+    margin: 1%;
+    margin-left: 6%;
+}
+.main_content::-webkit-scrollbar{
+    display: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: solid black 2px;  
+    margin: 2%;  
+}
+
+.textings{
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+
+.imgs{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 1%;
+}
+
+
+.txt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#textings1{
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 38%;
+}
+
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 70px;
+    height: 640px;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.limg{
+    width: 50px;
+    height: 50px;
+}
+
+.right-bar{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 80px;
+    height: 640px;
+    margin-left: 10%;
+    margin-top: 0.5%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+#circle{
+    display: none;
+    opacity: 0;
+    background:rgb(255, 255, 255);
+    width:120px;
+    height:120px;
+    border-radius:5%;
+    position:absolute;
+    transform:translate3d(-50%,-50%,0);
+    transition:transform 0.5s cubic-bezier(.02,1.23,.79,1.08);
+}
+
+#yt, #inst, #twitter, #fb, #kaspi1, #patreon, #visa{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 412px){
+    body{
+        background-image: url("C:/Users/mukan/Desktop/HTML-CSS/final_project/mobile_back.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .navbar3{
+        width: 412px;
+    }
+
+    .left-bar{
+        height: 900px;
+    }
+
+    .main_content{
+        width: 300px;
+        margin: 0;
+        height: 900px;
+    }
+
+    .right-bar{
+        height: 1000px;
+    }
+}

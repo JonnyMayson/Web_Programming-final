@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    padding: 0;
+  }
+  
+ 
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+ 
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .navbar3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    border-bottom: solid black 5px;
+    animation: slide1 1s forwards;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    opacity: 0;
+}
+.navbar3 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar3 a:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+}
+
+.main3, .news3, .garage3, .car3, .about_us3{
+    font-family: 'Hanalei Fill';
+    cursor: pointer;
+    margin-left: 50px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+.main3:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+    
+}
+
+.news3:hover, .garage3:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+    
+}
+
+.car3:hover, .about_us3:hover{
+    color: rgba(115, 217, 217, 0.7);
+    text-transform: uppercase;
+   
+}
+.nav_text{
+    transition: font-size 1s transfrom 1s;
+}
+
+.nav_text:hover{
+    font-size: 30px;
+}
+@keyframes slide1{
+  0% {top: 0; opacity: 0;}
+  100% {top: 20px; opacity: 1;}
+}
