@@ -1,0 +1,35 @@
+body {
+    padding: 30px;
+  }
+  
+  .title {
+    font-family: 'sanserif', cursive;
+    letter-spacing: 2px;
+  }
+  
+  .slide-down{
+    animation: move 2s  ease;
+  }
+  .new1{
+    display: inline-block;
+  }
+  
+  .text {
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(200px);
+      color: grey;
+    }
+    100% {
+      transform: translateY(0);
+      color: black;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+.news-bars{
+    display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 200px;
+}
+.bar1-open{
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.bar1-info{
+    text-align: center;
+}
